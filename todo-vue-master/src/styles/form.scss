@@ -1,0 +1,23 @@
+.form {
+  &__group {
+    margin: 0.5rem auto;
+
+    & > label {
+      display: inline-block;
+    }
+
+    & > input {
+      display: block;
+    }
+  }
+
+  &__footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  &__button {
+    margin-top: 0.35rem;
+    max-width: 35%;
+  }
+}
